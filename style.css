@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style:none;
+    text-decoration: none;
+}
+body{
+    min-width: 300px;
+    min-height: 400px;
+}
+nav{
+    min-height: 70px;
+    background-color: blue;
+    display: block;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
