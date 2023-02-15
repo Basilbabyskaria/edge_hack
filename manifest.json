@@ -2,13 +2,14 @@
     "name":"Edge Hack",
     "version":"1.0",
     "manifest_version":3,
-    "action":{
-        "default_popup":"index.html"
-    },
+    
     "background": {
       "service_worker":"background.js"
     },
-    "host_permissions":["<all_urls>"],
+    "action": {
+      "default_icon": "logo.png"
+    },
+    "host_permissions":["https://www.bing.com/*"],
     
       "permissions": [
         "scripting",
