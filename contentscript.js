@@ -13,7 +13,7 @@ if(window.location.href.match("https://www.bing.com/")){
 
         }
         catch{
-         console.log("Done");
+         console.log("Sad");
         }
     }
 }
@@ -21,11 +21,13 @@ if(window.location.href.match( "//rewards.bing.com/")){
     try{
     
         let x=document.querySelectorAll(".mee-icon-AddMedium");
-        for(i=0;1<x.length;i++){
-            x[i].click();
+        if(x.length>0){
+            for(i=0;1<x.length;i++){
+                x[i].click();
+            }
         }
     }catch{
-        console.log("very sad");
+        console.log("Done");
         
     }
 }
