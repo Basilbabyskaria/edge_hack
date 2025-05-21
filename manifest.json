@@ -1,19 +1,12 @@
 {
-    "name":"Edge Hack",
-    "version":"1.0",
-    "manifest_version":3,
-    
-    "background": {
-      "service_worker":"background.js"
-    },
-    "action": {
-      "default_icon": "logo.png"
-    },
-    "host_permissions":["https://www.bing.com/*","*://rewards.bing.com/*"],
-      "permissions": [
-        "scripting",
-        "storage",
-        "tabs",
-        "activeTab"
-      ]
+  "name": "Activater",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "host_permissions": ["https://basilbabyskaria.github.io/EdgeHackMobile*"],
+  "permissions": ["scripting", "storage", "tabs", "activeTab"]
 }
